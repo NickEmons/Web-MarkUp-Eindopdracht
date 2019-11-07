@@ -9,7 +9,6 @@ body{
 }
  
 .container{
-	width: 80%;
     margin: auto;
 	overflow: hidden;
 	background: #35424a;
@@ -17,7 +16,8 @@ body{
     padding-top: 30px;
     min-height: 70px;
 }
- ul{
+
+ul{
     margin: 0;
     padding: 0;
 }
@@ -30,9 +30,9 @@ header a{
 }
 
 header li{
-float: left;
-display: inline;
-padding: 0 20px 0 20px;
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
 }	
 
 header #branding{
@@ -54,17 +54,83 @@ header a:hover{
 	color: #cccccc;
 	font-weight: bold;
 }
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #cc0000;
+	text-align: center;
+}
+
 #maincontent{
+	width: 80%;
+	float: center;
 	color: #ff0000;
 	background-color: yellow;
-	padding: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+#main{
+	width: 82.5%;
+	float: center;
+	color: #ff0000;
+	background-color: yellow;
+	text-align: center;
+}
+
+#secondarycontent{
+	width: 80%;
+	color: #ff0000;
+	background-color: yellow;
+	padding: 20px;
 	text-align: center;
 	margin-right: 65px;
 }
-#main{
+
+#secondary{
+	width: 82.5%;
 	color: #ff0000;
 	background-color: yellow;
-	padding: 10px;
 	text-align: center;
 	margin-right: 65px;
+}
+
+#sportcontent{
+	width: 80%;
+	color: #ff0000;
+	background-color: yellow;
+	padding: 20px;
+	text-align: center;
+}
+#sport{
+	width: 82.5%;
+	color: #ff0000;
+	background-color: yellow;
+}
+
+#sport h2{
+	text-align: center;
+}
+
+#sports {
+	margin-bottom: 7em;
+}	
+
+#sports ul {
+	float: right;
+	margin-top: 10px;
+}
+
+#sports li {
+	
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	margin-left: 35px;
+}
+
+#desc li {
+	text-align: center;
 }
