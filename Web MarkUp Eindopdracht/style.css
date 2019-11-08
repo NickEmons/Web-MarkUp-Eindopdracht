@@ -64,7 +64,7 @@ footer{
 }
 
 #maincontent{
-	width: 80%;
+	width: 82.5%;
 	float: center;
 	color: #ff0000;
 	background-color: yellow;
@@ -72,16 +72,10 @@ footer{
 	text-align: center;
 }
 
-#main{
-	width: 82.5%;
-	float: center;
-	color: #ff0000;
-	background-color: yellow;
-	text-align: center;
-}
+
 
 #secondarycontent{
-	width: 80%;
+	width: 82.5%;
 	color: #ff0000;
 	background-color: yellow;
 	padding: 20px;
@@ -89,26 +83,16 @@ footer{
 	margin-right: 65px;
 }
 
-#secondary{
-	width: 82.5%;
-	color: #ff0000;
-	background-color: yellow;
-	text-align: center;
-	margin-right: 65px;
-}
+
 
 #sportcontent{
-	width: 80%;
+	width: 82.5%;
 	color: #ff0000;
 	background-color: yellow;
 	padding: 20px;
 	text-align: center;
 }
-#sport{
-	width: 82.5%;
-	color: #ff0000;
-	background-color: yellow;
-}
+
 
 #sport h2{
 	text-align: center;
@@ -124,13 +108,34 @@ footer{
 }
 
 #sports li {
-	
 	float: left;
 	display: inline;
-	padding: 0 20px 0 20px;
-	margin-left: 35px;
+	padding: 0 5px 0 5px;
+	margin-left: 40px;
 }
 
 #desc li {
 	text-align: center;
+}
+
+#sportcontent aside {
+	text-align: center;
+	padding-top: 30px;
+}
+
+img {
+	height: 110px;
+	width: 120px;
+}
+
+#contactcontent {
+	width: 82.5%;
+	color: #ff0000;
+	background-color: yellow;
+	padding: 20px;
+}
+
+#note {
+	width: 300px;
+	height: 100px;
 }
