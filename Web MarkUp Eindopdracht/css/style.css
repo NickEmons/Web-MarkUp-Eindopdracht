@@ -1,0 +1,193 @@
+/* Algemeen */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, times new roman, comic sans MS;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #FFFFFF;
+	background-color: #646b63;
+	text-align: center;
+}
+
+footer a {
+	color: #0a0a0a;
+}
+
+header {
+	font-size: 30px;
+}
+
+img {
+	height: 110px;
+	width: 120px;
+}
+
+h2 {
+	text-align: center;
+}
+
+#cookie {
+	position: relative;
+    z-index: 1000;
+}
+
+#cookieFine {
+	background-color: #E0C91F;
+	float: left;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+
+/* Navigatie  */
+.container{
+    margin: auto;
+	overflow: hidden;
+	background: #35424a;
+    color: #cc0000;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ol{
+	margin-left: 550px;
+}
+
+header a{
+	color: #90EE90;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}	
+
+header #branding{
+	float: left;
+	font-size: 35px;
+	margin: 0;
+	color: #F8F;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}	
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+/* De stad */
+#maincontent{
+	color: #FFFFFF;
+	background-color: #041a2f;
+	padding: 20px;
+	text-align: center;
+}
+
+#Purmerend img{
+	width: 150px;
+	height: 120px;
+}
+
+/* De wijk */
+#secondarycontent{
+	color: #FFFFFF;
+	background-color: #041a2f;
+	padding: 20px;
+	text-align: center;
+}
+
+#wheermolen img{
+	width: 300px;
+	height: 220px;
+}
+
+/* Sport */
+#sportcontent{
+	color: #FFFFFF;
+	background-color: #041a2f;
+	padding: 20px;
+}
+
+#sportcontent header {
+	text-align: center;
+}
+
+#sports {
+	margin-bottom: 7em;
+}	
+
+#sports ul {
+	float: right;
+	margin-top: 10px;
+}
+
+#sports li {
+	float: left;
+	display: inline;
+	padding: 0 5px 0 5px;
+	margin-left: 80px;
+	color: #ffd87f;
+}
+
+#sportcontent aside {
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* Contact formulier */
+#referalcontent {
+	color: #FFFFFF;
+	background-color: #041a2f;
+	padding: 20px;
+	text-align: center;
+}
+
+#contactcontent {
+	color: #FFFFFF;
+	background-color: #041a2f;
+	padding: 20px;
+}
+
+#contactcontent header {
+		margin: 20px;
+}
+
+#note {
+	width: 300px;
+	height: 100px;
+}
+
+video {
+	width: 30%;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	margin-left: 20px;
+}
