@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+
+sitemap: https://www.taekwon.eu/index.html/sitemap.xml
+
